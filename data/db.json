@@ -1,0 +1,45 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Pallavi",
+      "dob": "1995-06-15",
+      "gender": "Female",
+      "email": "pallavi@example.com",
+      "password": "12345",
+      "role": "Customer",
+      "profilePic": "https://lh4.googleusercontent.com/proxy/iUpZbprSELxy2q_McogCCwQQzMXc-MobgMXqq42xWN_i_8xaEpYLHckhAqghG12mzvqYviP8"
+    },
+    {
+      "id": "2",
+      "name": "Manager John",
+      "dob": "1980-01-01",
+      "gender": "Male",
+      "email": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_9OFQMVi0OFfbCHtfUuRTYgyM5z8jJxkHg&s",
+      "password": "admin",
+      "role": "Manager"
+    }
+  ],
+  "loans": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "amount": 50000,
+      "status": "Accepted"
+    },
+    {
+      "id": "2",
+      "customerId": 1,
+      "amount": 20000,
+      "status": "Accepted"
+    }
+  ],
+  "customerLoanData": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "loanId": 1,
+      "details": "Personal Loan for Education"
+    }
+  ]
+}
