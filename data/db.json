@@ -1,45 +1,92 @@
 {
-  "user": [
+  "users": [
     {
       "id": "1",
-      "name": "Pallavi",
-      "dob": "1995-06-15",
-      "gender": "Female",
-      "email": "pallavi@example.com",
-      "password": "12345",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
       "role": "Customer",
-      "profilePic": "https://lh4.googleusercontent.com/proxy/iUpZbprSELxy2q_McogCCwQQzMXc-MobgMXqq42xWN_i_8xaEpYLHckhAqghG12mzvqYviP8"
+      "dob": "1990-05-15",
+      "gender": "Male",
+      "profilePic": "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
       "id": "2",
-      "name": "Manager John",
-      "dob": "1980-01-01",
-      "gender": "Male",
-      "email": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_9OFQMVi0OFfbCHtfUuRTYgyM5z8jJxkHg&s",
-      "password": "admin",
-      "role": "Manager"
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "role": "Customer",
+      "dob": "1992-08-22",
+      "gender": "Female",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Alice Manager",
+      "email": "manager@example.com",
+      "password": "admin123",
+      "role": "Manager",
+      "dob": "1985-03-10",
+      "gender": "Female",
+      "profilePic": "https://randomuser.me/api/portraits/women/3.jpg"
     }
   ],
   "loans": [
     {
-      "id": "1",
-      "customerId": 1,
-      "amount": 50000,
+      "id": "101",
+      "customerId": "1",
+      "applicant": "John Doe",
+      "dob": "1990-05-15",
+      "employer": "ABC Corp",
+      "monthlySalary": 5000,
+      "amount": 20000,
+      "creditScore": 720,
+      "interestRate": 5.5,
+      "termLength": 24,
+      "appliedDate": "2026-02-01",
       "status": "Accepted"
     },
     {
-      "id": "2",
-      "customerId": 1,
-      "amount": 20000,
-      "status": "Accepted"
-    }
-  ],
-  "customerLoanData": [
+      "id": "102",
+      "customerId": "2",
+      "applicant": "Jane Smith",
+      "dob": "1992-08-22",
+      "employer": "XYZ Ltd",
+      "monthlySalary": 4500,
+      "amount": 15000,
+      "creditScore": 680,
+      "interestRate": 6,
+      "termLength": 18,
+      "appliedDate": "2026-02-05",
+      "status": "Rejected"
+    },
     {
-      "id": "1",
-      "customerId": 1,
-      "loanId": 1,
-      "details": "Personal Loan for Education"
+      "id": "103",
+      "customerId": "1",
+      "applicant": "John Doe",
+      "dob": "1990-05-15",
+      "employer": "ABC Corp",
+      "monthlySalary": 5000,
+      "amount": 10000,
+      "creditScore": 720,
+      "interestRate": 5,
+      "termLength": 12,
+      "appliedDate": "2026-01-10",
+      "status": "Rejected"
+    },
+    {
+      "id": "104",
+      "customerId": "2",
+      "applicant": "Jane Smith",
+      "dob": "1992-08-22",
+      "employer": "XYZ Ltd",
+      "monthlySalary": 4500,
+      "amount": 5000,
+      "creditScore": 680,
+      "interestRate": 4.5,
+      "termLength": 6,
+      "appliedDate": "2026-01-15",
+      "status": "Rejected"
     }
   ]
 }
